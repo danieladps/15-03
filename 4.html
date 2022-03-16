@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    /*Faça um programa que leia 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.*/
+    var um=prompt("Informe um numero");
+    var dois=prompt("Informe um numero");
+    var tres=prompt("Informe um numero");
+    /*soma=*/var soma=0 
+    if(um==dois || dois==tres || tres==um){
+alert("a numeros iguais")}
+
+else if(um<dois&&um<tres){
+    soma= dois + tres
+    alert(`a soma dos numeros maiores é: ${soma}`)
+}
+ else if(dois<um&&dois<tres){
+     soma= tres + um 
+     alert(`a soma dos numeros maiores é ${soma}`)
+ }
+
+ else{
+     soma=um + dois
+     alert(`a soma dos numeros maiores é ${soma}`) 
+ }
+
+
+</script>
+
+
+</head>
+<body>
+    
+</body>
+</html>
