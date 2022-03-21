@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+    /*Um zoológico muito louco
+Escreva um programa que leia a idade de 2 javalis e 2 girafas (considere que a idade dos javalis será sempre diferente, assim como das girafas ). Calcule e escreva a soma das idades do javali mais velho com a girafa mais nova, e o produto das idades do javali mais novo com a girafa mais velha.*/
+
+var n1=parseInt(prompt("Informe a idade do primeiro javali"));
+var n2=parseInt(prompt("Informe a idade do segundo javali"));
+var n3=parseInt(prompt('Informe a idade da girafa'));
+var n4=parseInt(prompt("Informe a idade da segunda girafa"));
+var soma=0;
+var multiplicacao=0;
+
+
+if(n1==n2 && n3==n4){
+  alert('Não foi possível calcular');}
+
+else if(n1>n2&&n3>n4){
+     soma= n1+n4;
+     multiplicacao= n2*n3;
+    alert('a soma dos maiores é: '+ soma+ ' o produto é: '+ multiplicacao);
+}
+
+else if(n2>n1&&n3<n4){
+    soma= n2+n4;
+    multiplicacao= n1*n3;
+    alert('a soma dos maiores é:'+soma+ ' o produto é '+ multiplicacao);
+}
+
+else if (n1>n2&&n4<n3){
+    soma=n1+n4;
+    maltiplicacao=n1*n3;
+    alert('A soma dos maiores é'+soma+ ' o produto '+ multiplicacao);
+}
+
+else if(n4>n3&&n2<n1){
+    soma= n3+n4;
+    multiplicacao= n1*n4;
+    alert('A soma dos maiores é' +soma + ' o produto '+ multiplicacao);
+    
+}
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
